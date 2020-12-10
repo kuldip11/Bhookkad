@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "monospace", sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.up-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    padding:50px 25px 25px 25px;
+}
+
+.app-warp {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px 15px;
+    color: #FFF;
+    margin-bottom: 200px;
+    
+}
+input{
+    font-family: 'montserrat', sans-serif;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 10px 10px 10px;
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 10px 50x;
+    border-radius: 13px 0px 13px 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2 ease-out;    
+}
+
+input:focus{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.Text-Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:5px 10px 10px 10px;
+    color: #FFF;
+}
+
+h1{
+    font-size: 30px;
+    padding: 20px 10px 5px 10px;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));    
+}
+
+.wait{
+    padding: 10px 30px 10px 30px;
+}
+
+.re{
+    font-size: 25px;
+    padding: 20px 10px 5px 10px;
+}
+
+p{
+    padding: 5px 15px 20px 15px;
+}
+
+
+ 
+ main{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
+button{
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px 20px 10px 20px ;
+    padding: 10px 5px 10px 5px;
+    border:none;
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 0.1);   
+}
+.pr{
+    grid-column-start: 1;
+
+}
+.ne{
+    grid-column-start: 5;
+}
+
