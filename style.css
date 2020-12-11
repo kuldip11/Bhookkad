@@ -5,19 +5,33 @@
 }
 
 body {
-    font-family: "monospace", sans-serif;
     background-image: url('bg.jpg');
     background-size: cover;
     background-position: center;
 }
 
+
 .up-head{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
     color: #FFF;
-    padding:50px 25px 25px 25px;
+
+    padding-bottom:25px;
+    margin-bottom: 90px;
+}
+.up-head>h1{
+    margin-bottom: 10px;
+    font-family:'Montserrat';
+    font-weight: 400;
+}
+.up-head>h1:hover{
+    font-size: 32px;
+    
+    transition: 0.2s ease-out; 
+    cursor: pointer;
 }
 
 .app-warp {
@@ -34,28 +48,32 @@ header {
     align-items: center;
     padding: 10px 15px 15px;
     color: #FFF;
-    margin-bottom: 200px;
+    margin-bottom: 116px;
+    max-height: 198px;
     
 }
 input{
-    font-family: 'montserrat', sans-serif;
-    padding: 10px 15px 10px 15px;
+    padding: 15px 20px 15px 20px;
     margin: 10px 10px 10px 10px;
-    width: 100%;
-    max-width: 200px;
+    width: 25%;
     height: 50px;
+    font-family: Lato;
+    color: #FFF;
     border: none;
     outline: none;
     box-shadow: 10px 50x;
-    border-radius: 13px 0px 13px 0px;
+    border-radius: 15px 0px 15px 0px;
     background-color: rgba(255, 255, 255, 0.2);
     font-size: 20px;
     font-weight: 300;
-    transition: 0.2 ease-out;    
+    text-align: center;
+    transition: 0.2s ease-out;    
 }
 
 input:focus{
     background-color: rgba(255, 255, 255, 0.4);
+    border: 1px  rgba(255, 255, 255, 0.4) solid;
+
 }
 
 .Text-Text{
@@ -63,8 +81,24 @@ input:focus{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding:5px 10px 10px 10px;
+    padding:25px 80px 30px 80px;
     color: #FFF;
+    border-radius: 9px 9px 9px 9px;
+}
+
+footer{
+    background-color: hsla(0,0%,100%,0.1);
+    backdrop-filter: blur(5px);
+    color:rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  padding:5px 8px;
+  margin-top: 10px;
+}
+footer>a>i{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.6);
 }
 
 h1{
@@ -75,6 +109,7 @@ h1{
 hr.style-two {
     border: 0;
     height: 1px;
+    width: 30%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));    
 }
 
@@ -92,15 +127,7 @@ p{
 }
 
 
- 
- main{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-
-}
-
 button{
-    font-family: 'montserrat', sans-serif;
     font-size: 20px;
     font-weight: 300;
     margin: 10px 20px 10px 20px ;
@@ -108,13 +135,45 @@ button{
     border:none;
     outline: none;
     border-radius: 5px 5px 5px 5px;
-    background-color: rgba(255, 255, 255, 0.1);   
+    background-color: rgba(255, 255, 255, 0.1);  
+     font-family: Lato;
+    cursor: not-allowed;
 }
 .pr{
-    grid-column-start: 1;
+    color: #FFF;
+    
+    width: 22vh;
 
 }
 .ne{
-    grid-column-start: 5;
+    
+    color: #FFF;
+    width: 22vh;
 }
 
+.re{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 40px;
+    font-family: Playfair Display SC;
+}
+.re:hover{
+    /* color: red; */
+    font-size: 42px;
+    transition: 0.3s ease-in-out;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+i{
+    padding: 5px;
+}
+.restaurants-info{
+    font-weight: 400;
+    font-size: 1.1em;
+    font-family: Playfair Display SC;
+    
+}
