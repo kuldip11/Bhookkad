@@ -48,7 +48,6 @@ header {
     align-items: center;
     padding: 10px 15px 15px;
     color: #FFF;
-    margin-bottom: 100px;
     max-height: 300px;
     
 }
@@ -171,6 +170,11 @@ button{
 main{
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    bottom: 7vh;
+    left: 0vh;
+    right: 0vh;
+
     
     
 }
