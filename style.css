@@ -55,7 +55,7 @@ header {
 input{
     padding: 15px 20px 15px 20px;
     margin: 10px 10px 10px 10px;
-    width: 25%;
+    width: 50vh;
     height: 50px;
     font-family: Lato;
     color: #FFF;
@@ -83,7 +83,6 @@ input:focus{
     text-align: center;
     padding:25px 80px 30px 80px;
     color: #FFF;
-    backdrop-filter: blur(10px);
     border-radius: 9px 9px 9px 9px;
 }
 
@@ -97,10 +96,10 @@ footer{
   padding:5px 8px;
   margin-top: 10px;
   position: fixed;
-  top:93%;
-  left:0%;
-  bottom: 0%;
-  width: 230vh;
+  left:0vh;
+  right:0vh;
+  bottom: 0vh;
+  width: 100%;
 }
 footer>a>i{
     text-decoration: none;
