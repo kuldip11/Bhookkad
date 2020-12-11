@@ -2,7 +2,6 @@ var base ="https://developers.zomato.com/api/v2.1/";
 var apikey = "bd0694624e4a9df3fd6a90ce7addc33a";
 let latitude="",longitude="",jsonObject1="",jsonObject2="",cityId="",count=-1,j=0;
 var restaurentList = new Array();
-
 var search = document.querySelector(".searchbox");
 search.addEventListener("keypress",restaurentsOnlocation)
 
@@ -23,6 +22,7 @@ currentlocation()
 function currentlocation(){
     search.disabled = true;
     if(navigator.geolocation){
+        
         navigator.geolocation.getCurrentPosition(setPosition);
     }
 }
@@ -48,7 +48,8 @@ function restaurentsOnlocation(evt){
     if (evt.keyCode == 13){
         
         newText.setAttribute("style","backdrop-filter: blur(10px);border:1px rgba(255, 255, 255, 0.4) solid;background-color:hsla(0,0%,100%,0.1);");
-    console.log(search.value);
+        
+        console.log(search.value);
     j=-1;
     var item = search.value;
     var apiRestau=`${base}search?entity_id=${cityId}&entity_type=city&q=${item}&apikey=${apikey}`;
