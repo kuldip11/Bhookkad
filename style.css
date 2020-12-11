@@ -159,12 +159,12 @@ button{
 .re{
     text-decoration: none;
     color: #FFF;
-    font-size: 40px;
+    font-size: 35px;
     font-family: Playfair Display SC;
 }
 .re:hover{
     /* color: red; */
-    font-size: 42px;
+    font-size: 37px;
     transition: 0.3s ease-in-out;
 }
 main{
@@ -178,7 +178,7 @@ i{
 }
 .restaurants-info{
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1.05em;
     font-family: Playfair Display SC;
     
 }
