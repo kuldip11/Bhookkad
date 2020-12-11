@@ -20,7 +20,7 @@ body {
     color: #FFF;
 
     padding-bottom:25px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 .up-head>h1{
     margin-bottom: 10px;
@@ -48,8 +48,8 @@ header {
     align-items: center;
     padding: 10px 15px 15px;
     color: #FFF;
-    margin-bottom: 116px;
-    max-height: 198px;
+    margin-bottom: 100px;
+    max-height: 300px;
     
 }
 input{
@@ -57,6 +57,7 @@ input{
     margin: 10px 10px 10px 10px;
     width: 40vh;
     height: 50px;
+    margin-bottom: 30px;
     font-family: Lato;
     color: #FFF;
     border: none;
