@@ -83,6 +83,7 @@ input:focus{
     text-align: center;
     padding:25px 80px 30px 80px;
     color: #FFF;
+    backdrop-filter: blur(10px);
     border-radius: 9px 9px 9px 9px;
 }
 
@@ -95,6 +96,11 @@ footer{
   font-size: 16px;
   padding:5px 8px;
   margin-top: 10px;
+  position: fixed;
+  top:93%;
+  left:0%;
+  bottom: 0%;
+  width: 230vh;
 }
 footer>a>i{
     text-decoration: none;
