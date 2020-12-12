@@ -1,7 +1,7 @@
 # Bhookkad
 - It detects the location of the user and gives the best deals and restaurants in your locations.Try it out Bhookkads!
 
-![Image](Capture.jpeg)
+![Image](Capture.JPG)
 
 
 ## Points to keep in mind while contributing:
